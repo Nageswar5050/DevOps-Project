@@ -1,0 +1,5 @@
+- name: ROBOSHOP PLAYBOOK
+  hosts: all
+  become: true
+  roles:
+    - mongo 
